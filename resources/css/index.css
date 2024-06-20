@@ -1,0 +1,44 @@
+/* Ajoutez ce CSS dans votre fichier CSS ou balise style */
+
+/* Style pour le titre */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style pour la table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+/* Style pour l'en-tête de la table */
+.table th {
+    background-color: #343a40;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style pour les cellules de la table */
+.table td,
+.table th {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Style pour les boutons */
+.btn {
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
